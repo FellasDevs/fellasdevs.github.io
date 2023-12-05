@@ -1,0 +1,24 @@
+html {
+    font-family: sans-serif;
+    background-color: #173558;
+    color: white;
+}
+
+.tech-stack a, .main-links a {
+    text-decoration: underline;
+}
+
+.main-links>div {
+    display: flex;
+    flex-direction: column;
+    gap: .7em;
+}
+.main-links>div>div {
+    display: flex;
+    flex-direction: column;
+    gap: .3em;
+}
+.main-links .container:hover {
+    opacity: 75%;
+    transition: 200ms;
+}
